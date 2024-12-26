@@ -176,7 +176,7 @@ struct ContentView: View {
                 // Timer Controls
                 HStack(spacing: 12) {
                     Button(action: startTimer) {
-                        Text(isTimerRunning ? "Pause" : "Start")
+                        Text(isTimerRunning ? "Pause" : "Start2")
                             .font(.subheadline)
                             .padding(.horizontal, 12)
                             .padding(.vertical, 8)
